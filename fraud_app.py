@@ -15,7 +15,7 @@ class Transaction(faust.Record):
     msg: str
     transactionAmount: 1000
 
-app = faust.App('fraud_app', broker='kafka://localhost:9092')
+app = faust.App('fraud_app', broker='kafka://localhost:29092')
 source_topic = app.topic('source', value_type=Transaction)
 destination_topic = app.topic('output', value_type=Transaction)
 
