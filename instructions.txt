@@ -16,8 +16,9 @@ run -- cd ..
 
 run - python3 -m pip install -U -r requirements.txt
 
+note: if issues, please see dependency requirments. May need to downgrade or uninstall dependencies
 
-
+run - faust -A fraud_app worker -l info
 
 
 
