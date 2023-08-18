@@ -38,7 +38,7 @@ Install python3 dependencies
 python3 -m pip install -U -r requirements.txt
 ```
 
-note: if issues, please see dependency requirments. May need to downgrade or uninstall dependencies
+note: if issues, please see dependency requirements. May need to downgrade or uninstall dependencies
 
 run application
 ```
