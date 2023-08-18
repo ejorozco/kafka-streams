@@ -20,8 +20,6 @@ note: if issues, please see dependency requirments. May need to downgrade or uni
 
 run - faust -A fraud_app worker -l info
 
-
-
 References
 
 https://faust-streaming.github.io/faust/playbooks/quickstart.html
