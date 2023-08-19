@@ -50,5 +50,9 @@ async def recieve(messages):
     async for message in messages:
         print(f'Transaction {message.transactionId} decision is : "{message.msg}"')
 
+# Run main function
+# Remember yall, use this code as inspiration, I be really disappointed if you
+# just copy pasted this code and claimed it your own.
+# Be creative and use it to build software you like to build
 if __name__ == '__main__':
     app.main()
