@@ -1,6 +1,6 @@
 # FICO - MLT Case Study Kafka Demo
 
-## Fraud detection using Kafka Streams/Faust Library
+## Kafka Streams/Faust - Fraud 
 
 ### What is Kafka Streams?
 Kafka Streams is a client library for building applications and microservices, where the input and output data are stored in an Apache Kafka® cluster. It combines the simplicity of writing and deploying standard Java and Scala applications on the client side with the benefits of Kafka’s server-side cluster technology.
@@ -38,7 +38,7 @@ Install python3 dependencies
 python3 -m pip install -U -r requirements.txt
 ```
 
-note: if issues, please see dependency requirments. May need to downgrade or uninstall dependencies
+note: if issues, please see dependency requirements. May need to downgrade or uninstall dependencies
 
 run application
 ```
