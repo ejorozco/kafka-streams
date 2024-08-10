@@ -49,3 +49,4 @@ faust -A fraud_app worker -l info
 
 https://faust-streaming.github.io/faust/playbooks/quickstart.html
 https://github.com/faust-streaming/faust
+
