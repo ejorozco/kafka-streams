@@ -1,27 +1,4 @@
-Install docker
-
-navigate to /kafka-docker
-
-run  - docker-compose up -d
-
-run  - docker ps 
-
-Should see 
-$ docker ps
-CONTAINER ID   IMAGE                             COMMAND                  CREATED          STATUS          PORTS                                        NAMES
-4e149c12be7d   confluentinc/cp-kafka:5.2.0       "/etc/confluent/dock…"   54 minutes ago   Up 8 minutes    9092/tcp, 0.0.0.0:29092->29092/tcp           kafka
-4a2b4924dbd6   confluentinc/cp-zookeeper:5.2.0   "/etc/confluent/dock…"   54 minutes ago   Up 54 minutes   2888/tcp, 0.0.0.0:2181->2181/tcp, 3888/tcp   zookeeper
-
-run -- cd ..
-
-run - python3 -m pip install -U -r requirements.txt
-
-note: if issues, please see dependency requirments. May need to downgrade or uninstall dependencies
-
-run - faust -A fraud_app worker -l info
-
 References
 
 https://faust-streaming.github.io/faust/playbooks/quickstart.html
 https://github.com/faust-streaming/faust
-
