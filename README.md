@@ -35,7 +35,9 @@ CONTAINER ID   IMAGE                             COMMAND                  CREATE
 
 Install python3 dependencies
 ```
-python3 -m pip install -U -r requirements.txt
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+pip install -r requirements.txt
 ```
 
 note: if issues, please see dependency requirements. May need to downgrade or uninstall dependencies
@@ -49,4 +51,3 @@ faust -A fraud_app worker -l info
 
 https://faust-streaming.github.io/faust/playbooks/quickstart.html
 https://github.com/faust-streaming/faust
-
